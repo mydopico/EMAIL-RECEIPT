@@ -1,1 +1,3 @@
 # CHALLENGE DAILY UI :: 017 - EMAIL RECEIPT DESIGN
+
+![EMAIL-RECEIPT](https://user-images.githubusercontent.com/6808728/195419964-369d1922-f0aa-46c8-bd92-e1851714ede0.png)
