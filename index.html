@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Receipt</title>
+    <!-- Custom CSS   -->
+    <link rel="stylesheet" href="css\styles.css">	
+    <!-- Bootstrap 5   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- fontawesome -->		
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- NAV BAR -->
+     <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand px-3" href="#">
+            <strong><i class="fa-solid fa-mountain-sun"></i> CHALLENGES DAILY UI :: 017 <br> Email Receipt</strong>
+        </a>
+    </nav>
+    <div id="main" class="container my-4"> 
+        <!-- HEADER  -->
+        <div id="header" class="text-center">
+             <!-- Icon brand -->
+            <i class="mt-2 p-3 fa-solid fa-leaf fa-3x"></i> 
+            <!-- Shape wavy bottom -->
+            <div class="custom-shape-divider-bottom-1665511346">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- MIDDLE -->
+        <div id="middle" class="px-3 py-5">
+            <h5 class="text-center">Receipt from <span id="company">The Good Company</span></h5>
+            <p id="receipt-number" class="text-center text-muted mb-4">Receipt # 1223-1234</p>
+            
+            <table  class="text-muted">               
+                <tr>
+                  <th>AMOUNT PAID</th>
+                  <th>DATE PAID</th>
+                  <th>PAYMENT METHOD</th>
+                </tr>               
+                <tr>
+                  <td><i class="fa-solid fa-euro-sign"></i> 20.00</td>
+                  <td><i class="fa-solid fa-calendar-days"></i> May 17, 2022</td>
+                  <td><i class="fa-brands fa-cc-visa fa-2x"></i></td>
+                </tr>               
+              </table> 
+           
+            <p id="summary" class="mt-3"><strong>SUMMARY</strong> <br>Monthly payment to <strong>The Good Company</strong></p>
+        
+        </div>
+        <!-- LAST  -->
+        <div id="last" class="py-3">
+            <div id="social" class="d-flex justify-content-center mt-3">
+                <ul>
+                    <li><i class="fa-brands fa-instagram fa-5x"></i></li>
+                    <li><i class="fa-brands fa-facebook-messenger fa-5x"></i></li>
+                    <li><i class="fa-brands fa-twitter fa-5x"></i></li>                    
+                    <li><i class="fa-brands fa-github fa-5x"></i></li>                    
+                </ul>
+                
+            </div>
+            <p class="text-center">Copyright 2022 - <span id="company">The Good Company</span></p>
+             <!-- Shape curvy top -->
+            <div class="custom-shape-divider-top-1665572334">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+
+    </div> <!-- end main -->
+    
+</body>
+</html>
